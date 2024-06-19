@@ -1,9 +1,11 @@
 [gd_scene load_steps=2 format=3 uid="uid://dovdinloc3oua"]
 
-[ext_resource type="Texture2D" uid="uid://b5de57xxqcp1i" path="res://icon.svg" id="1_d78qp"]
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_ordrg"]
+size = Vector2(1000, 100)
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(348, 82)
-texture = ExtResource("1_d78qp")
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(543, 319)
+scale = Vector2(1.068, 6.08)
+texture = SubResource("PlaceholderTexture2D_ordrg")
